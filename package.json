@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-bandlab",
+  "version": "1.0.0",
+  "description": "BandLab's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bandlab/eslint-config-bandlab"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "bandlab",
+    "javascript",
+    "angular",
+    "styleguide"
+  ],
+  "author": "Laurent Le Graverend (https://twitter.com/@yapfut)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bandlab/eslint-config-bandlab/issues"
+  },
+  "homepage": "https://github.com/bandlab/eslint-config-bandlab",
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "eslint-plugin-angular": "^0.13.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
+}
