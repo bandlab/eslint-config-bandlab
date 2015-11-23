@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bandlab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "devDependencies": {
-    "eslint": "^1.9.0",
+    "eslint": "^1.10.1",
     "eslint-plugin-angular": "^0.13.0"
   },
   "peerDependencies": {
