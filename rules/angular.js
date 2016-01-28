@@ -7,6 +7,7 @@ module.exports = {
     'angular/controller-as-route': 0,
     'angular/controller-name': [2, '/[A-Z].*Ctrl$/'],
 //    'angular/di-order': [2, true],
+    'angular/di-unused': 1,
     'angular/document-service': 0,
     'angular/interval-service': 0,
     'angular/json-functions': 0,
