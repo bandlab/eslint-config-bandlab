@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-bandlab",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,11 @@
   },
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "devDependencies": {
-    "eslint": "^1.10.3",
+    "eslint": "^2.0.0",
     "eslint-plugin-angular": "^0.15.0"
   },
   "peerDependencies": {
-    "eslint": ">=1.0.0"
+    "eslint": "^2.0.0",
+    "eslint-plugin-angular": "^0.15.0"
   }
 }
