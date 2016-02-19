@@ -48,7 +48,7 @@ module.exports = {
     'no-spaced-func': 2,
     'no-trailing-spaces': 2,
     'no-unused-expressions': 2,
-    'no-unused-vars': [0, { 'vars': 'all', 'args': 'after-used', argsIgnorePattern: 'elem.*|scope|attrs|err|options|reject|response' }],
+    'no-unused-vars': [2, { 'vars': 'all', 'args': 'after-used' }],
     'no-use-before-define': 0,
     'no-useless-call': 0,
     'no-void': 0,
