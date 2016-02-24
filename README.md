@@ -11,7 +11,7 @@ We export two ESLint configurations for your usage.
 
 Our default export contains all our ESLint rules, including Angular. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev npm install --save-dev eslint-config-bandlab eslint-plugin-angular eslint`
+1. `npm install --save-dev eslint-config-bandlab eslint-plugin-angular eslint`
 2. add `"extends": "bandlab"` to your .eslintrc
 
 ### eslint-config-bandlab/base
