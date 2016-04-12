@@ -47,6 +47,8 @@ module.exports = {
     'no-shadow-restricted-names': 2,
     'no-spaced-func': 2,
     'no-trailing-spaces': 2,
+    'no-undef-init': 2,
+    'no-undefined': 2,
     'no-unused-expressions': 2,
     'no-unused-vars': [2, { 'vars': 'all', 'args': 'after-used' }],
     'no-use-before-define': 0,
