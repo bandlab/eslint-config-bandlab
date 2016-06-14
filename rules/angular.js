@@ -11,7 +11,7 @@ module.exports = {
     'angular/deferred': 0,
     'angular/definedundefined': 2,
     'angular/di': [2, 'function'],
-    'angular/di-order': [0, true],
+    'angular/di-order': [2, true],
     'angular/di-unused': 2,
     'angular/directive-name': 0,
     'angular/directive-restrict': [0, { 'restrict': 'AE', 'explicit': 'never' }],
