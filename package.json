@@ -1,11 +1,17 @@
 {
-  "name": "eslint-config-bandlab",
-  "version": "3.7.0",
+  "name": "bandlab-style",
+  "version": "1.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
-  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npm run install:config && npm run install:config:base",
+    "install:config": "cd packages/eslint-config-bandlab && npm prune && npm install",
+    "install:config:base": "cd packages/eslint-config-bandlab-base && npm prune && npm install",
+    "test": "npm run --silent test:config && npm run --silent test:config:base",
+    "test:config": "cd packages/eslint-config-bandlab; npm test",
+    "test:config:base": "cd packages/eslint-config-bandlab-base; npm test",
+    "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
+    "travis:config": "cd packages/eslint-config-bandlab; npm run travis",
+    "travis:config:base": "cd packages/eslint-config-bandlab-base; npm run travis"
   },
   "repository": {
     "type": "git",
@@ -17,7 +23,6 @@
     "config",
     "bandlab",
     "javascript",
-    "angular",
     "styleguide"
   ],
   "author": "Laurent Le Graverend (https://twitter.com/@yapfut)",
@@ -25,13 +30,5 @@
   "bugs": {
     "url": "https://github.com/bandlab/eslint-config-bandlab/issues"
   },
-  "homepage": "https://github.com/bandlab/eslint-config-bandlab",
-  "devDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-plugin-angular": "^1.4.1"
-  },
-  "peerDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-plugin-angular": "^1.4.1"
-  }
+  "homepage": "https://github.com/bandlab/eslint-config-bandlab"
 }
