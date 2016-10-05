@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bandlab",
-  "version": "3.7.0",
+  "version": "4.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -43,8 +43,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
     "in-publish": "^2.0.0",
-    "safe-publish-latest": "^1.1.0",
-    "tape": "^4.6.2"
+    "safe-publish-latest": "^1.1.0"
   },
   "peerDependencies": {
     "eslint": "^3.7.1",
