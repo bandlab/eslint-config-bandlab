@@ -3,14 +3,6 @@
   "version": "4.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "tests-only": "babel-tape-runner ./test/test-*.js",
-    "prepublish": "(not-in-publish || npm test) && safe-publish-latest",
-    "pretest": "npm run --silent lint",
-    "test": "npm run --silent tests-only",
-    "travis": "cd ../eslint-config-bandlab-base && npm install && npm link && cd - && npm link eslint-config-bandlab-base && npm run --silent test ; npm unlink eslint-config-bandlab-base >/dev/null &"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bandlab/eslint-config-bandlab"
@@ -33,21 +25,8 @@
   "dependencies": {
     "eslint-config-bandlab-base": "^1.0.0"
   },
-  "devDependencies": {
-    "babel-preset-airbnb": "^2.1.1",
-    "babel-tape-runner": "^2.0.1",
-    "eslint": "^3.7.1",
-    "eslint-find-rules": "^1.14.0",
-    "eslint-plugin-angular": "^1.4.1",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.3.0",
-    "in-publish": "^2.0.0",
-    "safe-publish-latest": "^1.1.0"
-  },
   "peerDependencies": {
     "eslint": "^3.7.1",
-    "eslint-plugin-angular": "^1.4.1",
-    "eslint-plugin-import": "^2.0.0"
+    "eslint-plugin-angular": "^1.4.1"
   }
 }
