@@ -7,7 +7,7 @@ By adopting a common ESLint config, we are encouraging a consistent style and qu
 
 We export two ESLint configurations for your usage.
 
-### eslint-config-bandlab/base
+### eslint-config-bandlab-base
 
 Our default export contains our default ESLint rules. Requires `eslint`.
 

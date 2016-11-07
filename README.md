@@ -12,7 +12,7 @@ We export two ESLint configurations for your usage.
 Our default export contains all our ESLint rules, including Angular.
 See [eslint-config-bandlab](https://npmjs.com/eslint-config-bandlab).
 
-### eslint-config-bandlab/base
+### eslint-config-bandlab-base
 
 Our default export contains our basic ESLint rules.
 See [eslint-config-bandlab-base](https://npmjs.com/eslint-config-bandlab-base).
