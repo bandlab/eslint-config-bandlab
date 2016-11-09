@@ -66,6 +66,11 @@ module.exports = {
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
     'spaced-comment': [2, 'always'],
     'strict': [0],
-    'yoda': 2
+    'yoda': 2,
+    'valid-jsdoc': ['error', {
+      'prefer': { 'arg': 'param', 'argument': 'param', 'class': 'constructor', 'return': 'returns', 'virtual': 'abstract' },
+      'preferType': { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String' },
+      'requireReturn': false
+    }]
   }
 };
