@@ -56,6 +56,7 @@ module.exports = {
     'no-useless-call': 0,
     'no-void': 0,
     'no-with': 2,
+    'object-curly-spacing': [2, 'always'],
     'one-var': [2, { 'var': 'always', 'let': 'never', 'const': 'never' }],
     'quotes': [2, 'single'],
     'semi': 2,
