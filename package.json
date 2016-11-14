@@ -1,16 +1,16 @@
 {
-  "name": "bandlab-style",
+  "name": "eslint-config-bandlab",
   "version": "1.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "scripts": {
-    "preinstall": "npm run install:config && npm run install:config:base",
-    "install:config": "cd packages/eslint-config-bandlab && npm prune && npm install",
+    "preinstall": "npm run install:config:base && npm run install:config:angularjs",
     "install:config:base": "cd packages/eslint-config-bandlab-base && npm prune && npm install",
-    "test": "npm run --silent test:config && npm run --silent test:config:base",
-    "test:config": "cd packages/eslint-config-bandlab; npm test",
+    "install:config:angularjs": "cd packages/eslint-config-bandlab-angularjs && npm prune && npm install",
+    "test": "npm run --silent test:config:base && npm run --silent test:config:angularjs",
     "test:config:base": "cd packages/eslint-config-bandlab-base; npm test",
-    "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
-    "travis:config": "cd packages/eslint-config-bandlab; npm run travis",
+    "test:config:angularjs": "cd packages/eslint-config-bandlab-angularjs; npm test",
+    "travis": "npm run --silent travis:config:base && npm run --silent travis:config:angularjs",
+    "travis:config:angularjs": "cd packages/eslint-config-bandlab-angularjs; npm run travis",
     "travis:config:base": "cd packages/eslint-config-bandlab-base; npm run travis"
   },
   "repository": {

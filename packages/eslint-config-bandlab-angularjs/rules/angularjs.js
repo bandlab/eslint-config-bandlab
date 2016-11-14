@@ -1,7 +1,4 @@
 module.exports = {
-  'extends': [
-    'bandlab-base'
-  ],
   'plugins': [
     'angular'
   ],
