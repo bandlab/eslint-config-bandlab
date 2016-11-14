@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bandlab-angularjs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
