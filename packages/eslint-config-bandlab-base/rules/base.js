@@ -1,6 +1,9 @@
 module.exports = {
-  'extends': 'eslint:recommended',
-  'rules': {
+  extends: 'eslint:recommended',
+  plugins: [
+    'unicorn'
+  ],
+  rules: {
     'accessor-pairs': 0,
     'block-scoped-var': 2,
     'camelcase': 2,
@@ -76,6 +79,17 @@ module.exports = {
       'prefer': { 'arg': 'param', 'argument': 'param', 'class': 'constructor', 'return': 'returns', 'virtual': 'abstract' },
       'preferType': { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String' },
       'requireReturn': false
-    }]
+    }],
+    'unicorn/catch-error-name': ['error', { 'name': 'err' }],
+    'unicorn/no-abusive-eslint-disable': 'error',
+    'unicorn/no-process-exit': 'error',
+    'unicorn/throw-new-error': 'error',
+    'unicorn/number-literal-case': 'error',
+    'unicorn/escape-case': 'error',
+    'unicorn/no-array-instanceof': 'error',
+    'unicorn/no-new-buffer': 'error',
+    'unicorn/no-hex-escape': 'error',
+    'unicorn/custom-error-definition': 'error',
+    'unicorn/prefer-type-error': 'error'
   }
 };
