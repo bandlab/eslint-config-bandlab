@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bandlab-base",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
