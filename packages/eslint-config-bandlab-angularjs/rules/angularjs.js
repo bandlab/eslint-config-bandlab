@@ -43,7 +43,7 @@ module.exports = {
     // Conventions
     'angular/di': [2, 'function'],
     'angular/di-order': [2, true, 'case_insensitive'],
-    'angular/dumb-inject ': 2,
+    'angular/dumb-inject': 2,
     'angular/function-type': 0,
     'angular/no-service-method': 2,
     'angular/module-dependency-order': [0, { 'grouped': true, 'prefix': null }],
