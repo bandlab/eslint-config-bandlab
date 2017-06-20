@@ -26,7 +26,7 @@
     "eslint-config-bandlab-base": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-plugin-angular": "^2.2.0"
+    "eslint": "^4.0.0",
+    "eslint-plugin-angular": "^2.5.0"
   }
 }
