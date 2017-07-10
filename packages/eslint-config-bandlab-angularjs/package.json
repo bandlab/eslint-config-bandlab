@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "dependencies": {
-    "eslint-config-bandlab-base": "^2.0.0"
+    "eslint-config-bandlab-base": "^1.5.0"
   },
   "peerDependencies": {
     "eslint": "^3.17.1",
-    "eslint-plugin-angular": "^3.0.0"
+    "eslint-plugin-angular": "^2.2.0"
   }
 }
