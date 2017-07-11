@@ -14,6 +14,7 @@ module.exports = {
     'dot-notation': [2, { 'allowKeywords': true }],
     'eol-last': 2,
     'eqeqeq': 2,
+    'func-style': [2, 'declaration'],
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
     'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
