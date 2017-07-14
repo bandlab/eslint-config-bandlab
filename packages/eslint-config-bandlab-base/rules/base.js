@@ -6,6 +6,7 @@ module.exports = {
   rules: {
     'accessor-pairs': 0,
     'block-scoped-var': 2,
+    'brace-style': 2,
     'camelcase': 2,
     'comma-spacing': 2,
     'complexity': [0, 11],
