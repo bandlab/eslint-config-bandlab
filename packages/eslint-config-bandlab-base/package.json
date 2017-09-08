@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bandlab-base",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "BandLab's ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "peerDependencies": {
-    "eslint": "^4.5.0",
+    "eslint": "^4.6.1",
     "eslint-plugin-unicorn": "^2.1.2"
   }
 }
