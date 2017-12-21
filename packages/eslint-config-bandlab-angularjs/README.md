@@ -16,7 +16,7 @@ Our default export contains all our ESLint rules, including AngularJS rules. It 
 
 ### eslint-config-bandlab-base
 
-See [eslint-config-bandlab-base](https://npmjs.com/eslint-config-bandlab-base) for the base without AngularJS support.
+See [eslint-config-bandlab-base](https://www.npmjs.com/package/@bandlab/eslint-config-bandlab-base) for the base without AngularJS support.
 
 ## Disclaimer
 
