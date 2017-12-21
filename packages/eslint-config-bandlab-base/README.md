@@ -10,7 +10,7 @@ By adopting a common ESLint config, we are encouraging a consistent style and qu
 Our default export contains our default ESLint rules. Requires `eslint`.
 
 1. `npm install --save-dev eslint-config-bandlab-base eslint-plugin-unicorn eslint`
-2. add `"extends": "bandlab-base"` to your .eslintrc
+2. add `"extends": "@bandlab/eslint-config-bandlab-base"` to your .eslintrc
 
 ## Disclaimer
 

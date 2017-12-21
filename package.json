@@ -2,6 +2,7 @@
   "name": "eslint-config-bandlab",
   "version": "1.0.0",
   "description": "BandLab's ESLint config, following our styleguide",
+  "private": true,
   "scripts": {
     "preinstall": "npm run install:config:base && npm run install:config:angularjs",
     "install:config:base": "cd packages/eslint-config-bandlab-base && npm prune && npm install",

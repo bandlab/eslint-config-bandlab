@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'bandlab-base',
+    '@bandlab/eslint-config-bandlab-base',
     './rules/angularjs.js'
   ]
 };
