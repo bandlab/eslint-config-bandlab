@@ -11,12 +11,12 @@ We export two ESLint configurations for your usage.
 
 Our default export contains all our ESLint rules, including AngularJS rules. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev eslint-config-bandlab-angularjs eslint-plugin-angular eslint-plugin-unicorn eslint`
-2. add `"extends": "bandlab-angularjs"` to your .eslintrc
+1. `npm install --save-dev @bandlab/eslint-config-bandlab-angularjs @bandlab/eslint-plugin-angular eslint-plugin-unicorn eslint`
+2. add `"extends": "@bandlab/eslint-config-bandlab-angularjs"` to your .eslintrc
 
 ### eslint-config-bandlab-base
 
-See [eslint-config-bandlab-base](https://npmjs.com/eslint-config-bandlab-base) for the base without AngularJS support.
+See [eslint-config-bandlab-base](https://www.npmjs.com/package/@bandlab/eslint-config-bandlab-base) for the base without AngularJS support.
 
 ## Disclaimer
 
