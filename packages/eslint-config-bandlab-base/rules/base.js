@@ -67,7 +67,7 @@ module.exports = {
     'object-curly-spacing': [2, 'always'],
     'one-var': [2, { 'var': 'always', 'let': 'never', 'const': 'never' }],
     'prefer-template': 2,
-    'quotes': [2, 'single'],
+    'quotes': [2, 'single', { 'avoidEscape': true }],
     'semi': 2,
     'semi-spacing': [2, { 'before': false, 'after': true }],
     'space-before-blocks': ['error', 'always'],
