@@ -71,7 +71,7 @@ module.exports = {
     'semi': 2,
     'semi-spacing': [2, { 'before': false, 'after': true }],
     'space-before-blocks': ['error', 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, 'never', { 'asyncArrow': 'always' }],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
