@@ -55,6 +55,7 @@ module.exports = {
     'no-shadow': [0, { 'hoist': 'all' }],
     'no-shadow-restricted-names': 2,
     'no-trailing-spaces': 2,
+    'no-undef': [2, { 'typeof': true }],
     'no-undef-init': 2,
     'no-undefined': 2,
     'no-unused-expressions': 2,
