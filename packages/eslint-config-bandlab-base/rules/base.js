@@ -7,7 +7,7 @@ module.exports = {
     'accessor-pairs': 0,
     'block-scoped-var': 2,
     'brace-style': 2,
-    'camelcase': 2,
+    'camelcase': [2, { 'properties': 'never' }],
     'comma-spacing': 2,
     'complexity': [0, 11],
     'consistent-return': 0,
