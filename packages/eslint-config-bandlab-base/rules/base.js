@@ -43,7 +43,7 @@ module.exports = {
     'no-loop-func': 2,
     'no-multi-spaces': [2],
     'no-multi-str': 2,
-    'no-multiple-empty-lines': [2, { 'max': 1 }],
+    'no-multiple-empty-lines': [2, { 'max': 1, 'maxBOF': 0 }],
     'no-new-func': 2,
     'no-new-object': 2,
     'no-new-wrappers': 2,
