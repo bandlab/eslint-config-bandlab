@@ -69,6 +69,7 @@ module.exports = {
     'one-var': [2, { 'var': 'always', 'let': 'never', 'const': 'never' }],
     'prefer-template': 2,
     'quotes': [2, 'single', { 'avoidEscape': true }],
+    'quote-props': [2, 'consistent-as-needed'],
     'semi': 2,
     'semi-spacing': [2, { 'before': false, 'after': true }],
     'space-before-blocks': ['error', 'always'],
