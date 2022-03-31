@@ -5,6 +5,7 @@ module.exports = {
   ],
   rules: {
     'accessor-pairs': 0,
+    'array-bracket-spacing': 2,
     'block-scoped-var': 2,
     'brace-style': 2,
     'camelcase': [2, { 'properties': 'never' }],
