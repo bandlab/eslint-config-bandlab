@@ -68,6 +68,7 @@ module.exports = {
     'no-with': 2,
     'object-curly-spacing': [2, 'always'],
     'one-var': [2, { 'var': 'always', 'let': 'never', 'const': 'never' }],
+    'prefer-const': 2,
     'prefer-template': 2,
     'quotes': [2, 'single', { 'avoidEscape': true }],
     'quote-props': [2, 'consistent-as-needed'],
