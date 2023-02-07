@@ -97,6 +97,7 @@ module.exports = {
     'unicorn/no-new-buffer': 'error',
     'unicorn/no-hex-escape': 'error',
     'unicorn/custom-error-definition': 'error',
+    'unicorn/prefer-node-protocol': 'error',
     'unicorn/prefer-type-error': 'error'
   }
 };
