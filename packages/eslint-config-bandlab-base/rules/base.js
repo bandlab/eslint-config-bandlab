@@ -68,7 +68,7 @@ module.exports = {
     'object-curly-spacing': [2, 'always'],
     'one-var': [2, { 'var': 'always', 'let': 'never', 'const': 'never' }],
     'padding-line-between-statements': [2,
-      { "blankLine": "always", "prev": "function", "next": "function" }
+      { "blankLine": "always", "prev": "*", "next": "function" }
     ],
     'prefer-const': [2, { 'destructuring': 'all' }],
     'prefer-template': 2,
