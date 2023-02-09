@@ -74,6 +74,7 @@ module.exports = {
     'prefer-template': 2,
     'quotes': [2, 'single', { 'avoidEscape': true }],
     'quote-props': [2, 'consistent-as-needed'],
+    'require-await': 2,
     'semi': 2,
     'semi-spacing': [2, { 'before': false, 'after': true }],
     'space-before-blocks': ['error', 'always'],
