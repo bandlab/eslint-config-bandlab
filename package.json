@@ -4,6 +4,7 @@
   "description": "BandLab's ESLint config, following our styleguide",
   "private": true,
   "scripts": {
+    "format": "prettier . -w",
     "preinstall": "npm run install:config:base && npm run install:config:angularjs",
     "install:config:base": "cd packages/eslint-config-bandlab-base && npm prune && npm install",
     "install:config:angularjs": "cd packages/eslint-config-bandlab-angularjs && npm prune && npm install"
@@ -25,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/bandlab/eslint-config-bandlab/issues"
   },
-  "homepage": "https://github.com/bandlab/eslint-config-bandlab"
+  "homepage": "https://github.com/bandlab/eslint-config-bandlab",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true
+  }
 }

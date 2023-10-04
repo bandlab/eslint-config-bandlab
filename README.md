@@ -11,7 +11,6 @@ We export two ESLint configurations for your usage.
 
 [![npm version](https://badge.fury.io/js/%40bandlab%2Feslint-config-bandlab-angularjs.svg)](https://badge.fury.io/js/%40bandlab%2Feslint-config-bandlab-angularjs)
 
-
 Our default export contains all our ESLint rules, including Angular.
 See [eslint-config-bandlab-angularjs](https://www.npmjs.com/package/@bandlab/eslint-config-bandlab-angularjs).
 

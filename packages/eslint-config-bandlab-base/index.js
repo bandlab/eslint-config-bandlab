@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    './rules/base.js'
-  ]
+  extends: ['./rules/base.js'],
 };
