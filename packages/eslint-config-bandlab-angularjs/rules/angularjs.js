@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'angular'
-  ],
+  plugins: ['angular'],
   rules: {
     // Possible Errors
     'angular/module-getter': 2,
@@ -15,11 +13,11 @@ module.exports = {
     'angular/controller-as-vm': [2, 'vm'],
     'angular/deferred': 0,
     'angular/di-unused': 2,
-    'angular/directive-restrict': [0, { 'restrict': 'AE', 'explicit': 'never' }],
+    'angular/directive-restrict': [0, { restrict: 'AE', explicit: 'never' }],
     'angular/empty-controller': 0,
     'angular/no-controller': 0,
-    'angular/no-inline-template': [0, { 'allowSimple': true }],
-    'angular/no-run-logic': [0, { 'allowParams': true }],
+    'angular/no-inline-template': [0, { allowSimple: true }],
+    'angular/no-run-logic': [0, { allowParams: true }],
     'angular/no-services': [2, ['$resource']],
     'angular/on-watch': 0,
 
@@ -46,7 +44,7 @@ module.exports = {
     'angular/dumb-inject': 2,
     'angular/function-type': 0,
     'angular/no-service-method': 2,
-    'angular/module-dependency-order': [0, { 'grouped': true, 'prefix': null }],
+    'angular/module-dependency-order': [0, { grouped: true, prefix: null }],
     'angular/one-dependency-per-line': 0,
     'angular/rest-service': 0,
     'angular/watchers-execution': [0, '$digest'],
@@ -72,5 +70,5 @@ module.exports = {
 
     // Misspelling
     'angular/on-destroy': 2,
-  }
+  },
 };
