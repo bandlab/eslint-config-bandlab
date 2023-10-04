@@ -23,6 +23,7 @@
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "peerDependencies": {
     "eslint": ">=6.0.0",
+    "eslint-plugin-jsdoc": ">=46.8.2",
     "eslint-plugin-unicorn": ">=10.0.0"
   }
 }
