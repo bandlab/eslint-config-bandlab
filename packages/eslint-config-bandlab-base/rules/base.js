@@ -1,6 +1,7 @@
 module.exports = {
   extends: 'eslint:recommended',
   plugins: [
+    'jsdoc',
     'unicorn'
   ],
   rules: {
@@ -21,6 +22,15 @@ module.exports = {
     'func-style': [2, 'declaration'],
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
+    'jsdoc/check-access': 2,
+    'jsdoc/check-alignment': 2,
+    'jsdoc/check-indentation': 2,
+    'jsdoc/check-line-alignment': 2,
+    'jsdoc/check-param-names': 2,
+    'jsdoc/check-property-names': 2,
+    'jsdoc/check-tag-names': [2, { 'definedTags': ['element', 'ngdoc', 'restrict'] }],
+    'jsdoc/check-types': 2,
+    'jsdoc/check-values': 2,
     'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
     'keyword-spacing': [2, { 'before': true, 'after': true }],
     'linebreak-style': [2, 'unix'],
@@ -86,11 +96,6 @@ module.exports = {
     'strict': [0],
     'template-curly-spacing': [2, 'never'],
     'yoda': 2,
-    'valid-jsdoc': ['error', {
-      'prefer': { 'arg': 'param', 'argument': 'param', 'class': 'constructor', 'return': 'returns', 'virtual': 'abstract' },
-      'preferType': { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String' },
-      'requireReturn': false
-    }],
     'unicorn/catch-error-name': ['error', { 'name': 'err' }],
     'unicorn/no-abusive-eslint-disable': 'error',
     'unicorn/no-process-exit': 'error',
@@ -103,5 +108,11 @@ module.exports = {
     'unicorn/custom-error-definition': 'error',
     'unicorn/prefer-node-protocol': 'error',
     'unicorn/prefer-type-error': 'error'
+  },
+  settings: {
+    jsdoc: {
+      preferredTypes: { 'boolean': 'Boolean', 'number': 'Number', 'object': 'Object', 'string': 'String' },
+      tagNamePreference :{ 'class': 'constructor', 'return': 'returns' }
+    }
   }
 };
