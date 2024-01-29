@@ -1,6 +1,6 @@
 {
   "name": "@bandlab/eslint-config-bandlab-angularjs",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "BandLab's ESLint config for AngularJS, following our styleguide",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bandlab/eslint-config-bandlab",
   "dependencies": {
-    "@bandlab/eslint-config-bandlab-base": "^5.0.0"
+    "@bandlab/eslint-config-bandlab-base": "^6.0.0"
   },
   "peerDependencies": {
     "eslint": ">=8.50.0",
